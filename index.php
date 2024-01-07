@@ -13,7 +13,7 @@
 
     <?php
     echo "<pre>\n";
-    $pdo = new PDO('mysql:host=localhost;port=3306;dbname=Sterngucker','bobc','iau');  
+    $pdo = new PDO('mysql:host=localhost;port=3306;dbname=the88','bobc','iau');  
     $stmt = $pdo->query("SELECT * FROM Sterngucker");                                                                                                                                                                        $stmt = $pdo→query(“SELECT * FROM Sternglucker”);
     while ( $row = $stmt→fetch(PDO::FETCH_ASSOC)  )  {
         print_r($row);
